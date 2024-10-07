@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gray;
+
+}
+body:hover{
+    background-color: blue;
+    transition: 5s;
+
+}
+
+h1{
+    color: blue;
+    background-image: url(../flower.gif);
+    width: 500px;
+    height: 200px;
+}
+
+
+h1:hover{
+    color: red;
+    transform: translate(10%);
+    transform: scale(50%);
+    width: 100px;
+    height: 200px;
+}
+
+h1{
+    transition-duration: 3s;
+    transition-timing-function: ease;
+}
+
+p{
+    color: white;
+    padding: 12px;
+    margin: 10px;
+    font-size: 1.2rem;
+    font-family: arial;
+}
+p:hover{
+    color: blue;
+}
